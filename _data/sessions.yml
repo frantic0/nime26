@@ -1,0 +1,522 @@
+# Workshop Day
+
+- id: registration1
+  title: Registration
+  date: Tuesday 2025-06-24 08:30-09:00 AEST
+  start: '2025-06-24T08:30:00+10:00'
+  end: '2025-06-24T09:00:00+10:00'  
+  location: "ANU Hanna Neumann Building 145"
+  type: admin
+  image_url: assets/location/hn-lobby.jpg
+  allDay : false
+
+- id: workshops-1
+  title: Workshops Morning
+  chair: Minsik Choi
+  date: Tuesday 2025-06-24 09:00-12:30 AEST
+  start: '2025-06-24T09:00:00+10:00'
+  end: '2025-06-24T12:30:00+10:00'
+  location: "ANU Hanna Neumann Building Area"
+  type: workshops
+  image_url: assets/submissions/330.jpg
+  image_credit: "Ciaran Frame; Steph O'Hara; Sam Trolland; Alon Ilsar"
+  # video_url: https://www.youtube.com/live/aL8uG1PRkIY
+  allDay : false
+
+- id: workshops-2
+  title: Workshops Afternoon
+  chair: Minsik Choi
+  date: Tuesday 2025-06-24 13:30-17:00 AEST
+  start: '2025-06-24T13:30:00+10:00'
+  end: '2025-06-24T17:00:00+10:00'
+  location: "ANU Hanna Neumann Building 145"
+  type: workshops
+  image_url: assets/submissions/336.jpg
+  image_credit: "Jason Smith; Bryan Pardo"
+  # video_url: https://www.youtube.com/live/aL8uG1PRkIY
+  allDay : false
+
+- id: workshops-0
+  title: Workshops All Day
+  chair: Minsik Choi
+  date: Tuesday 2025-06-24 09:00-17:00 AEST
+  start: '2025-06-24T09:00:00+10:00'
+  end: '2025-06-24T17:00:00+10:00'
+  location: "ANU Hanna Neumann Building 145"
+  type: workshops
+  image_url: assets/submissions/217.jpg
+  image_credit: "Chris Kiefer; Andrea Martelloni"
+  # video_url: https://www.youtube.com/live/aL8uG1PRkIY
+  allDay : false
+
+- id: reception
+  title: Welcome
+  chair: Charles Martin
+  date: Tuesday 2025-06-24 18:00-18:30 AEST
+  start: '2025-06-24T18:00:00+10:00'
+  end: '2025-06-24T18:30:00+10:00'
+  location: "Kambri Foyer"
+  type: plenary
+  image_url: assets/location/kambri-cultural-centre.jpg
+  # video_url: https://www.youtube.com/live/aL8uG1PRkIY
+  allDay : false
+  abstract: |
+    The conference welcome will take place at the Lowitja O'Donoghue Cultural Centre at Kambri in the centre of campus.
+
+    The welcome will feature Senior Ngunnawal Elder, [Aunty Violet Sheridan](https://www.regionalaustralia.org.au/Conference2024/Conference2025/Speakers/Aunty_Violet_Sheridan.aspx).
+
+- id: concert-1
+  title: Opening Concert
+  chair: Sophie Rose
+  date: Tuesday 2025-06-24 18:30-20:30 AEST
+  start: '2025-06-24T18:30:00+10:00'
+  end: '2025-06-24T20:30:00+10:00'
+  location: "Kambri Drama Theatre"
+  type: concert
+  image_url: assets/submissions/238.jpg
+  image_credit: "Leah Barclay; Toby Gifford"
+  # video_url: https://www.youtube.com/live/aL8uG1PRkIY
+  allDay : false
+
+# Day 1
+
+- id: registration2
+  title: Registration
+  date: Wednesday 2025-06-25 08:30-09:00 AEST
+  start: '2025-06-25T08:30:00+10:00'
+  end: '2025-06-25T09:00:00+10:00'  
+  location: "Kambri Foyer"
+  type: admin
+  image_url: assets/location/kambri-cultural-centre.jpg
+  allDay : false
+
+- id: papers-1
+  title: Papers 1
+  subtitle: Collective and Embodied
+  chair: Tara Pattenden
+  date: Wednesday 2025-06-25 09:00-10:30 AEST
+  start: '2025-06-25T09:00:00+10:00'
+  end: '2025-06-25T10:30:00+10:00'
+  location: "Kambri Cinema"
+  type: papers
+  image_url: assets/submissions/68.jpg
+  image_credit: "Qiaosheng Lyu; Ryo Ikeshiro"
+  # video_url: https://www.youtube.com/live/aL8uG1PRkIY
+  allDay : false
+
+- id: papers-2
+  title: Papers 2
+  subtitle: Novel Techniques and Technologies
+  chair: Ben Swift
+  date: Wednesday 2025-06-25 11:00-12:30 AEST
+  start: '2025-06-25T11:00:00+10:00'
+  end: '2025-06-25T12:30:00+10:00'
+  location: "Kambri Cinema"
+  type: papers
+  image_url: assets/submissions/115.jpg
+  image_credit: "Victor Shepardson; Halla Steinunn Stefánsdóttir; Thor Magnusson"
+  # video_url: https://www.youtube.com/live/aL8uG1PRkIY
+  allDay : false
+
+- id: posters-1
+  title: Posters 1
+  chair: Yichen Wang
+  date: Wednesday 2025-06-25 13:30-14:30 AEST
+  start: '2025-06-25T13:30:00+10:00'
+  end: '2025-06-25T14:30:00+10:00'
+  location: "Kambri Foyer"
+  type: posters
+  image_url: assets/submissions/8.jpg
+  image_credit: "Sabina Hyoju Ahn; Ryan Millett; Seyeon Park"
+  # video_url: https://www.youtube.com/live/aL8uG1PRkIY
+  allDay : false
+
+- id: keynote-1
+  title: "Keynote: Clare Cooper"
+  chair: Pia van Gelder
+  date: Wednesday 2025-06-25 14:30-15:30 AEST
+  start: '2025-06-25T14:30:00+10:00'
+  end: '2025-06-25T15:30:00+10:00'
+  location: "Kambri Cinema"
+  type: plenary
+  image_url: assets/keynotes/cooper.jpg
+  image_credit: "Ryley Lawson"
+  # video_url: https://www.youtube.com/live/aL8uG1PRkIY
+  allDay : false
+  abstract: |
+    **title**
+
+    Future Histories of Sonic Entanglements
+
+    **abstract**
+
+    Cooper invites participants to spend some time in a massive, messy, evolving translocal interface comprised of millions of inputs. This keynote takes a pluriversal, wobbly 2035 as it’s starting point and walks us back to an array of present-day predicaments, assumptions, and toolkits. We’ll feed on drivers of change to navigate future contexts, and future histories.
+    
+    As animated and willing participants of one slice of this hyperobject, can we poke at some of the objections and objectives that paralyse and stunt us to find out more about our entangled futures? What has been gleefully abandoned? What has been boldly launched? What has been lovingly maintained?
+    
+    **bio**
+    
+    Clare Cooper (she/her) is currently a design researcher, educator, and noise harpist. Fruitfully attention-deficit her music, design, and research has been presented in 16 countries over the last two decades. She is the co-founder of experimental arts festival the NOW now, and established large-scale improvising orchestras in Sydney (Splinter Orchestra 2001-present) and in Berlin (Splitter Orchester 2009-present), as well as the community skill-share space Frontyard Projects (2016-present) on Gadigal land.
+    
+    Clare is a Senior Lecturer in Design at The University of Sydney, partnering with community health and arts organisations to create strategic advocacy campaigns using novel design futuring methods that she has developed in her research. She recently led the Australian chapter of the ERC-funded Sonic Street Technologies research project. Cooper’s research and sonic works have been published internationally.
+    
+    More details here:
+
+    - [Clare's personal projects site](https://www.gutstring.net)
+    - [Sydney University profile](https://www.sydney.edu.au/architecture/about/our-people/academic-staff/clare-cooper.html)
+    - [LinkedIn](https://www.linkedin.com/in/clare-m-cooper-3099325/)
+
+- id: papers-3
+  title: Papers 3
+  subtitle: Body and Motion
+  chair: Sam Trolland
+  date: Wednesday 2025-06-25 16:00-17:00 AEST
+  start: '2025-06-25T16:00:00+10:00'
+  end: '2025-06-25T17:00:00+10:00'
+  location: "Kambri Cinema"
+  type: papers
+  image_url: assets/submissions/11.jpg
+  image_credit: "Pasquale Mainolfi"
+  # video_url: https://www.youtube.com/live/aL8uG1PRkIY
+  allDay : false
+
+- id: concert-2
+  title: Concert 2
+  chair: Nicole Carroll
+  date: Wednesday 2025-06-25 19:00-20:30 AEST
+  start: '2025-06-25T19:00:00+10:00'
+  end: '2025-06-25T20:30:00+10:00'
+  location: "Kambri Drama Theatre"
+  type: concert
+  image_url: assets/submissions/257.jpg
+  image_credit: "Sophie Rose"
+  # video_url: https://www.youtube.com/live/aL8uG1PRkIY
+  allDay : false
+
+- id: concert-3
+  title: Concert 3
+  chair: Alexander Hunter
+  date: Wednesday 2025-06-25 21:00-23:00 AEST
+  start: '2025-06-25T21:00:00+10:00'
+  end: '2025-06-25T23:00:00+10:00'
+  location: "Big Band Room"
+  type: concert
+  image_url: assets/submissions/183.jpg
+  image_credit: "Lilian Zhao"
+  # video_url: https://www.youtube.com/live/aL8uG1PRkIY
+  allDay : false
+
+# Day 2 - Thursday
+
+- id: registration3
+  title: Registration
+  date: Thursday 2025-06-26 08:30-09:00 AEST
+  start: '2025-06-26T08:30:00+10:00'
+  end: '2025-06-26T09:00:00+10:00'  
+  location: "Kambri Foyer"
+  type: admin
+  image_url: assets/location/kambri-cultural-centre.jpg
+  image_credit: "Charles Martin"
+  allDay : false
+
+- id: papers-4
+  title: Papers 4
+  subtitle: Environment, Sustainability, Longevity
+  chair: Sally Jane Norman
+  date: Thursday 2025-06-26 09:00-10:30 AEST
+  start: '2025-06-26T09:00:00+10:00'
+  end: '2025-06-26T10:30:00+10:00'
+  location: "Kambri Cinema"
+  type: papers
+  image_url: assets/submissions/96.jpg
+  image_credit: "Xinran Chen; Iurii Kuzmin; Mela Bettega; Raul Masu"
+  # video_url: https://www.youtube.com/live/aL8uG1PRkIY
+  allDay : false
+
+- id: papers-5
+  title: Papers 5
+  subtitle: Machine Learning and Co-Creativity
+  chair: Victor Shephardson
+  date: Thursday 2025-06-26 11:00-12:30 AEST
+  start: '2025-06-26T11:00:00+10:00'
+  end: '2025-06-26T12:30:00+10:00'
+  location: "Kambri Cinema"
+  type: papers
+  image_url: assets/submissions/131.jpg
+  image_credit: "Sandy Ma"
+  # video_url: https://www.youtube.com/live/aL8uG1PRkIY
+  allDay : false
+
+- id: posters-2
+  title: Posters 2
+  chair: Yichen Wang
+  date: Thursday 2025-06-26 13:30-14:30 AEST
+  start: '2025-06-26T13:30:00+10:00'
+  end: '2025-06-26T14:30:00+10:00'
+  location: "Kambri Foyer"
+  type: posters
+  image_url: assets/submissions/135.jpg
+  image_credit: "Darlene Castro"
+  # video_url: https://www.youtube.com/live/aL8uG1PRkIY
+  allDay : false
+
+- id: fairlight
+  title: "The Fairlight CMI: History, Technology, Ideology – a demonstration"
+  date: Thursday 2025-06-26 12:30-13:30 AEST
+  start: '2025-06-26T12:30:00+10:00'
+  end: '2025-06-26T13:30:00+10:00'
+  location: "School of Music Recording Studio (Level 5)"
+  type: concert
+  image_url: assets/location/fairlight.jpg
+  # image_credit: ""
+  allDay: false
+  chair: Prof Samantha Bennett (ANU)
+  abstract: |
+    **The Fairlight CMI: History, Technology, Ideology – a Demonstration**
+
+    [Professor Samantha Bennett](https://researchportalplus.anu.edu.au/en/persons/samantha-bennett) – The Australian National University
+    
+    This talk and practical demonstration of the Fairlight Computer Music Instrument will focus on 3 key concepts featured in a forthcoming edited book (co-edited with Dr Paul Harkins, Routledge, 2027). The focus of this session is on the technological aspects of the Fairlight CMI, to include its computer, operating system, sample library, functionality, and Page R sequencer. The talk will also include historical details about the instrument and its links to the ANU School of Music. Given its prohibitive cost and take-up by Queer users / artists, the talk also discusses the instrument in the contexts of neoliberal ideology, Queer aesthetics, and tech-utopian values.
+
+- id: papers-6
+  title: Papers 6
+  subtitle: Accessibility
+  chair: Alon Ilsar
+  date: Thursday 2025-06-26 14:30-15:30 AEST
+  start: '2025-06-26T14:30:00+10:00'
+  end: '2025-06-26T15:30:00+10:00'
+  location: "Kambri Cinema"
+  type: papers
+  image_url: assets/submissions/37.jpg
+  image_credit: "Mat Dalgleish"
+  # video_url: https://www.youtube.com/live/aL8uG1PRkIY
+  allDay : false
+
+- id: papers-7
+  title: Papers 7
+  subtitle: Entangled NIME
+  chair: Teresa Pelinski
+  date: Thursday 2025-06-26 16:00-17:00 AEST
+  start: '2025-06-26T16:00:00+10:00'
+  end: '2025-06-26T17:00:00+10:00'
+  location: "Kambri Cinema"
+  type: papers
+  image_url: assets/submissions/21.jpg
+  image_credit: "Jasmine Butt; Benedict Gaster; Nathan Renney; Maisie Palmer"
+  # video_url: https://www.youtube.com/live/aL8uG1PRkIY
+  allDay : false
+
+- id: dinner
+  title: Buffet Dinner (School of Music Athenaeum)
+  date: Thursday 2025-06-26 17:30-19:30 AEST
+  start: '2025-06-26T17:30:00+10:00'
+  end: '2025-06-26T19:30:00+10:00'
+  location: "School of Music"
+  type: admin
+  image_url: assets/location/som-stairs.jpg
+  image_credit: "Charles Martin"
+  allDay : false
+  abstract: |
+    Buffet dinner provided at the Athenauem, Ground Floor, ANU School of Music. 
+    
+    During this time, you will be able to grab dinner and a drink and then peruse installations throughout the ANU School of Music building.
+
+- id: installations-1
+  title: Installation Viewing
+  chair: Pia van Gelder
+  date: Thursday 2025-06-26 17:00-20:30 AEST
+  start: '2025-06-26T17:00:00+10:00'
+  end: '2025-06-26T20:30:00+10:00'
+  location: "School of Music"
+  type: installations
+  image_url: assets/submissions/52.jpg
+  image_credit: "Xuedan Gao; Xinchen Liu"
+  # video_url: https://www.youtube.com/live/aL8uG1PRkIY
+  allDay : false
+
+
+- id: concert-4
+  title: Studio Concert
+  chair: Nicole Carroll
+  date: Thursday 2025-06-26 19:30-20:30 AEST
+  start: '2025-06-26T19:30:00+10:00'
+  end: '2025-06-26T20:30:00+10:00'
+  location: "School of Music Recording Studio"
+  type: concert
+  image_url: assets/location/som-stairs.jpg
+  image_credit: "Charles Martin"
+  # video_url: https://www.youtube.com/live/aL8uG1PRkIY
+  allDay : false
+  abstract: |
+    This concert of works for Disklavier will run multiple times between 19:30 and 20:30 during the installation viewing session. There will be limited seating as the concert is in the studio live room.
+
+
+- id: concert-5
+  title: Concert 5
+  chair: Sophie Rose
+  date: Thursday 2025-06-26 21:00-23:00 AEST
+  start: '2025-06-26T21:00:00+10:00'
+  end: '2025-06-26T23:00:00+10:00'
+  location: "Kambri Drama Theatre"
+  type: concert
+  image_url: assets/submissions/95.jpg
+  image_credit: "Ludwig Zeller; Anselm Bauer"
+  # video_url: https://www.youtube.com/live/aL8uG1PRkIY
+  allDay : false
+
+# Day 3
+
+- id: registration4
+  title: Registration
+  date: Friday 2025-06-27 08:30-09:00 AEST
+  start: '2025-06-27T08:30:00+10:00'
+  end: '2025-06-27T09:00:00+10:00'  
+  location: "Kambri Foyer"
+  type: admin
+  image_url: assets/location/kambri-cultural-centre.jpg
+  image_credit: "Charles Martin"
+  allDay : false
+
+- id: papers-8
+  title: Papers 8
+  subtitle: Historical and Cultural Reflections
+  chair: John Ferguson
+  date: Friday 2025-06-27 09:00-10:30 AEST
+  start: '2025-06-27T09:00:00+10:00'
+  end: '2025-06-27T10:30:00+10:00'
+  location: "Kambri Cinema"
+  type: papers
+  image_url: assets/submissions/195.jpg
+  image_credit: "Yann Seznec"
+  # video_url: https://www.youtube.com/live/aL8uG1PRkIY
+  allDay : false
+
+- id: papers-9
+  title: Papers 9
+  subtitle: Extended Reality
+  chair: Kunwoo Kim & Yichen Wang
+  date: Friday 2025-06-27 11:00-12:30 AEST
+  start: '2025-06-27T11:00:00+10:00'
+  end: '2025-06-27T12:30:00+10:00'
+  location: "Kambri Cinema"
+  type: papers
+  image_url: assets/submissions/58.jpg
+  image_credit: "David Kim-Boyle"
+  # video_url: https://www.youtube.com/live/aL8uG1PRkIY
+  allDay : false
+
+- id: posters-3
+  title: Posters 3
+  chair: Yichen Wang
+  date: Friday 2025-06-27 13:30-14:30 AEST
+  start: '2025-06-27T13:30:00+10:00'
+  end: '2025-06-27T14:30:00+10:00'
+  location: "Kambri Foyer"
+  type: posters
+  image_url: assets/submissions/184.jpg
+  image_credit: "Davor Vincze; Roberto Alonso; Peter Nelson"
+  # video_url: https://www.youtube.com/live/aL8uG1PRkIY
+  allDay : false
+
+- id: keynote-2
+  title: "Keynote: Peter Blamey"
+  chair: Charles Martin
+  date: Friday 2025-06-27 14:30-15:30 AEST
+  start: '2025-06-27T14:30:00+10:00'
+  end: '2025-06-27T15:30:00+10:00'
+  location: "Kambri Drama Theatre"
+  type: plenary
+  image_url: assets/keynotes/blamey.jpg
+  image_credit: "Nick Dan"
+  # video_url: https://www.youtube.com/live/aL8uG1PRkIY
+  allDay : false
+  abstract: |
+    **keynote title**
+
+    Novel Interactions with Materials and Energies/Entangle Me in Noise
+
+    **keynote description**
+
+    This keynote, rather than a traditional lecture, is instead made up of realisations of several interrelated performance works. These works all explore the experiential capacities of small-scale and local energy sourcing in relation to environmental and artefactual forms of light, where sound, alongside its aesthetic aspects, functions as an indicator of physical processes in action. Using everyday materials and simple, open-form performative strategies that place performer and device on an equal footing, these works both play on and with the possibilities for realising, rethinking and relating to the immaterial energetic aspects of our environment.
+
+    **bio**
+
+    [Peter Blamey](https://peterblamey.net) is a Sydney-based artist, living on Gadigal land. His practice is often sound-focused and accomplished with a minimum of means, and includes performances, videos, recordings and installations. Broadly speaking, his work explores (amongst other things) the interconnected themes of energies and residues, often through reimagining our encounters with everyday technologies and the physical world, as well as our experiences of energy generation, use, and waste.
+
+    Peter has performed extensively over the last twenty-five years, including appearances at innumerable experimental music and arts festivals, including Dark Mofo, What is Music?, Liquid Architecture, Electrofringe, Avantwhatever, the Biennale of Sydney, Cementa, ACMA, and ISEA, along with countless other shows. He has collaborated with a range of local and international artists, including Jim Denley, Dale Gorfinkel, and Kusum Normoyle (in the duo Hard Hat), and is currently one third of the group Sodium Tail. Some time ago Peter completed a BA (Hons) Comm at the University of Technology Sydney, before receiving a PhD from the University of Western Sydney in 2008 for research on simple acoustic phenomena and post-Cagean experimental music.
+
+    In 2014, Peter took part in the Instrument Builders Project, a collaboration between Australian and Indonesian artists, resulting in exhibitions in Yogyakarta and at the National Gallery of Victoria. Between 2020 and 2022, his work was included in the touring exhibition _Material Sound_ (Qld, NSW, Vic, Tas), curated by Caleb Kelly. His work has also been exhibited in venues large and small, including Artspace, UTS Gallery, SCA Gallery, SNO projects, Firstdraft, SCALA, 55 Sydenham Rd, ICAN, China Heights, and Serial Space (all NSW), Bus (Vic), West Space (Vic), CACSA (SA), and the Black Mountain College Museum + Art Center, Asheville, NC (USA).
+
+    **photo caption**
+
+    Peter Blamey, live, Tempe Jets, Tempe, NSW, 2022. Photo: Nick Dan.
+
+- id: plenary-town-hall
+  title: Town Hall Plenary
+  chair: Charles Martin
+  date: Friday 2025-06-27 16:00-17:00 AEST
+  start: '2025-06-27T16:00:00+10:00'
+  end: '2025-06-27T17:00:00+10:00'
+  location: "Kambri Cinema"
+  type: plenary
+  image_url: assets/location/nime.jpg
+  
+  # video_url: https://www.youtube.com/live/aL8uG1PRkIY
+  allDay : false
+
+- id: installations-2
+  title: Installation Viewing
+  chair: Pia van Gelder
+  date: Friday 2025-06-27 17:00-19:00 AEST
+  start: '2025-06-27T17:00:00+10:00'
+  end: '2025-06-27T19:00:00+10:00'
+  location: "School of Music"
+  type: installations
+  image_url: assets/submissions/159.jpg
+  image_credit: "Jacob Hedges; Daniel Garrett; Jaxon Sharp"
+  # video_url: https://www.youtube.com/live/aL8uG1PRkIY
+  allDay : false
+
+- id: concert-6
+  title: Concert 6
+  chair: Nicole Carroll
+  date: Friday 2025-06-27 19:00-20:30 AEST
+  start: '2025-06-27T19:00:00+10:00'
+  end: '2025-06-27T20:30:00+10:00'
+  location: "Big Band Room"
+  type: concert
+  image_url: assets/submissions/293.jpg
+  image_credit: "Botao Hu; Yuemin Huang; Mingze Chai; Xiaobo Hu; Yilan Tao; Rem RunGu Lin"
+  # video_url: https://www.youtube.com/live/aL8uG1PRkIY
+  allDay : false
+
+- id: concert-7
+  title: Synth & Signal (Club Concert and After Party)
+  chair: Sophie Rose
+  date: Friday 2025-06-27 21:00-23:59 AEST
+  start: '2025-06-27T21:00:00+10:00'
+  end: '2025-06-27T23:59:00'
+  location: "Shadows Nightclub"
+  type: concert
+  image_url: assets/submissions/262.jpg
+  image_credit: "Tara Pattenden"
+  # video_url: https://www.youtube.com/live/aL8uG1PRkIY
+  allDay : false
+  abstract: |
+    _Synth & Signal_ is co-curated and supported by [MusicACT](https://www.musicact.com.au) ([instagram](https://www.instagram.com/yourmusicact/)), the ACT's peak-body for contemporary music.
+
+    This coneert will take place at [Shadows Nightclub](https://www.instagram.com/shadows_night_club/) ([21 E Row, Canberra ACT 2601](https://maps.app.goo.gl/ry82mwdax5J71Xrq6)), a premier location in Canberra for electronic and experimental music practices, and also a great venue for an after party.
+
+    The lineup for the concert includes three accepted NIME works listed below, with additional performances curated by MusicACT's director, Sia Ahmad.
+
+    - [Marlene Claudine Radice](https://marleneclaudine-radice.bandcamp.com)
+    - [Discobasis](https://discobasis.bandcamp.com)
+    - [Making Out](https://makingout.bandcamp.com)
+
+    The NIME team thanks MusicACT Director Sia Ahmad for her contribution to our NIME community and the staff of Shadows for assisting with this event.
+
+    All registered NIME attendees will have free access to this concert by using a accesss code for MusicACT's event on humanitix. Pelase see the [NIME2025 forum area for details](https://forum.nime.org/t/closing-concert-registration/949).
+
+    Tickets for non-NIME-attendees are available from <https://events.humanitix.com/synth-and-signal-2025/tickets>
+
+    N.B.: Shadows Nightclub is located around 1km from the main conference locations (16 min walk). Shadows Nightclub is unfortunately inaccessible via wheelchair or mobility scooter as attendees must climb a single flight of stairs. This concert will involve flashing lights (lasers and projection).

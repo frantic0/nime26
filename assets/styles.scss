@@ -1,0 +1,189 @@
+---
+---
+// Inter Font
+// @import url('https://rsms.me/inter/inter.css');
+// @supports (font-variation-settings: normal) {
+//   html { font-family: 'Inter var', sans-serif; }
+// }
+
+// $body-font: 'Inter', sans-serif;
+// $header-font: 'Inter', sans-serif;
+
+// Fonts
+// @import url('https://fonts.googleapis.com/css?family=Lato|PT+Sans&display=swap');
+@use "sass:color";
+
+$header-font: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+$body-font: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+$code-font: ui-monospace, Menlo, Monaco, "Cascadia Mono", "Segoe UI Mono", "Roboto Mono", "Oxygen Mono", "Ubuntu Monospace", "Source Code Pro", "Fira Mono", "Droid Sans Mono", "Courier New", monospace;
+
+
+html {
+    font-family: $body-font;
+}
+
+body {
+  font-family: $body-font;
+  font-weight: normal;
+  padding-top: 1em;
+}
+
+p {
+    font-family: $body-font;
+}
+
+
+h1, h3, h5 {
+  font-family: $header-font;
+  font-weight: 600 !important;
+}
+
+h2, h4, h6 {
+    font-family: $header-font;
+    font-weight: 500;
+}
+
+.display-1, .display-2, .display-3, .display-4, .display-5, .display-6 {
+    font-family: $header-font;
+    font-weight: 600 !important;
+    text-transform: uppercase;
+}
+
+
+h2.bibliography {
+    font-size: 1.5rem !important;
+}
+
+.button {
+  font-family: $body-font;
+  font-weight: bold;
+}
+
+blockquote {
+    margin: 0;
+}
+
+blockquote p {
+    padding: 15px;
+    background: #eee;
+    border-radius: 5px;
+}
+
+.center {
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  
+article {
+
+    img:not(.card-img-top) {
+        max-width: 80%;
+        max-height: 80%;
+        height: inherit !important;
+        display:block;
+        margin:auto;
+    }
+    
+    .card-img-top {
+        width: 100%;    /* Make image width responsive to card width */
+        aspect-ratio: 1 / 1;  /* Maintain square aspect ratio */
+        object-fit:cover;
+    }
+    .display-1, .display-2, .display-3, .display-4, .display-5, .display-6 {
+        text-align: center;
+    }
+}
+
+
+$ui-0: #2e312d;
+$ui-1: #7e7a72;
+$ui-2: #8f95a5;
+$ui-3: #97a7b6;
+$ui-4: #565b68;
+$ui-5: #5f6e62;
+$ui-6: #b69255;
+$ui-7: #bd5c6f;
+
+$ui-background: $ui-0;
+
+
+$ui-gradient: linear-gradient(90deg, $ui-7, $ui-6);
+
+
+.nav-item {
+    .active {
+        font-weight: 900;
+    }
+
+    &:hover {
+        font-weight: 900;
+        color: $ui-3;
+    }
+}
+
+.container a, main a {
+    color: $ui-5;
+    font-weight: 500;
+    
+    &:hover {
+        color: #FFF;
+        background: $ui-gradient !important;
+    }
+}
+
+.navbar-brand {
+    font-weight: 900;
+}
+
+.feature-image {
+    position: relative;          
+    width: 100%;                 
+    padding-top: 23.7%;          
+    background-size: cover;      
+    background-position: center; 
+  }
+
+// nice callout boxes from ANU jekyll themes...
+// swiped from ANU neotheme, but adjusted to use custom colours, not ANU colormap.
+
+@function get-custom-color-level($color, $level: 0) {
+	@return color.mix(#ffffff, $color, $level * 22%);
+}
+
+%callout-box {
+  padding: 1rem;
+  border-top: 4px solid get-color-level(#000000, 3);
+  background-color: get-color-level(#000000, 4);
+  margin: 1rem 0;
+
+  *:first-child {
+    margin-top: 0;
+  }
+
+  *:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.callout-box {
+  @extend %callout-box;
+}
+
+$info-color: $ui-6;
+
+.info-box {
+  @extend %callout-box;
+  border-color: $info-color;
+  background: get-custom-color-level($info-color, 4);
+}
+
+$warning-color: $ui-7;
+
+.warning-box {
+    @extend %callout-box;
+    border-color: $warning-color;
+    background: get-custom-color-level($warning-color, 4);
+}

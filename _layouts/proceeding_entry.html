@@ -1,0 +1,74 @@
+---
+layout: default
+---
+
+<!-- TODO: un comment this when all proceedings entries have a session. -->
+{% comment %}
+{% if page.entry.session_code %}
+{% capture session_url %}{{ page.entry.session_code | datapage_url: "sessions" | relative_url }}{% endcapture %}
+{% endif %}
+<a href="{{ session_url }}">{{ page.entry.session_code }}</a>
+{% endcomment %}
+
+{% if page.entry.session_code %}
+  {% assign session_codes = page.entry.session_code | split: "," %}
+  {% assign session_urls = "" | split: "" %}
+  {% for session_code in session_codes %}
+    {% assign trimmed_code = session_code | strip %}
+    {% assign session_url = trimmed_code | datapage_url: "sessions" | relative_url %}
+    {% assign session_urls = session_urls | push: session_url %}
+  {% endfor %}
+{% endif %}
+
+
+<article>
+  {% if page.title %}
+  <div class="my-4">
+    <h1 class="">{{ page.entry.title }}</h1>
+    <h4>{{ page.entry.authors }}</h4>
+  </div>
+  {% endif %}
+
+  {% include tocdiv.html %}
+
+  <div class="my-4 p-2">
+    {% if page.entry.image_url %}
+    <div class="entry-image">
+      <figure class="figure">
+        <img src="{{ site.baseurl }}/assets/submissions/{{ page.entry.image_url }}" alt="{{ page.title }}" class="figure-img img-fluid rounded">
+        {% if page.entry.image_credit %}
+        <figcaption class="figure-caption">Image credit: {{ page.entry.image_credit }}</figcaption>
+        {% else %}
+        <figcaption class="figure-caption">Image credit: {{ page.entry.authors }}</figcaption>
+        {% endif %}
+      </figure>
+    </div>
+    {% endif %}
+    <ul>
+      {% if page.entry.format %}<li>Format: {{ page.entry.format }}</li>{% endif %}
+      {% if page.entry.session_code %}
+      <li>Session: 
+        {% assign num = session_codes.size | minus: 1 %}
+        {% for i in (0..num) %}
+          {% if session_codes[i] %}
+          <a href="{{ session_urls[i] }}">{{ session_codes[i] | strip }}</a>{% unless forloop.last %}, {% endunless %}
+          {% endif %}
+        {% endfor %}
+      {% endif %}
+      </li>
+      {% if page.entry.paper_url %}<li><a href="{{ page.entry.paper_url }}">Paper PDF link</a></li>{% endif %}
+      {% if page.entry.video_url %}<li><a href="{{ page.entry.video_url }}">Video link</a></li>{% endif %}
+      {% if page.entry.slides_url %}<li><a href="{{ page.entry.slides_url }}">Slides link</a></li>{% endif %}
+      {% if page.entry.presence %}<li>Presence: {{ page.entry.presence }}</li>{% endif %}
+      {% if page.entry.duration %}<li>Duration: {{ page.entry.duration }}</li>{% endif %}
+      {% if page.entry.type %}<li>Type: {{ page.entry.type }}</li>{% endif %}
+      {% if page.entry.speaker %}<li>Presenter: {{ page.entry.speaker }}</li>{% endif %}
+      {% if page.entry.location %}<li>Location: {{ page.entry.location }}</li>{% endif %}
+    </ul>
+
+    {% if page.entry.abstract %}
+    <h2>Abstract:</h2>
+    {{ page.entry.abstract | markdownify }}
+    {% endif %}
+  </div>
+</article>

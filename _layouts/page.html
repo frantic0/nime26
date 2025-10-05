@@ -1,0 +1,19 @@
+---
+layout: default
+feature_image_light: {{ page.feature_image_light }}
+feature_image_dark: {{ page.feature_image_dark }}
+---
+
+<article>
+  {% if page.title %}
+  <div class="my-4">
+    <h1 class="">{{ page.title }}</h1>
+  </div>
+  {% endif %}
+
+  {% include tocdiv.html %}
+
+  <div class="my-4 p-2">
+    {{ content }}
+  </div>
+</article>
