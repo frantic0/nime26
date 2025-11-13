@@ -36,6 +36,12 @@ The theme uses [`jekyll-seo-tag`](https://github.com/jekyll/jekyll-seo-tag/) to 
 bundle exec jekyll serve
 ```
 
+## Building for deployment
+
+```bash
+bundle exec jekyll build --config _config.prod.yml
+```
+
 
 ## Contributing
 
