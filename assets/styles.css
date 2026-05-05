@@ -67,6 +67,12 @@ article .card-img-top {
   aspect-ratio: 1/1; /* Maintain square aspect ratio */
   object-fit: cover;
 }
+article .keynote-image {
+  width: 100%; /* Make image width responsive to card width */
+  aspect-ratio: 1/1; /* Maintain square aspect ratio */
+  object-fit: cover;
+  max-width: 500px !important;
+}
 article .display-1, article .display-2, article .display-3, article .display-4, article .display-5, article .display-6 {
   text-align: center;
 }
